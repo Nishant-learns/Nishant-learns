@@ -167,6 +167,21 @@
 
 ---
 
+### 🎮 ✦ Interactive Transmission & Mission Dispatch
+
+<div align="center">
+
+| Protocol | Action Request | Direct Dispatch Link |
+| :---: | :--- | :---: |
+| 🚀 | **Initiate AI / Systems Collaboration** | [**`[ OPEN COLLAB TICKET ]`**](https://github.com/Nishant-learns/Nishant-learns/issues/new?title=%F0%9F%9A%80%20Mission%20Collaboration%20Inquiry&body=%E2%9A%A1%20Hey%20Nishant,%20I'd%20love%20to%20collaborate%20on...) |
+| 🛡️ | **Report Security Observation / Vector** | [**`[ DISPATCH ADVISORY ]`**](https://github.com/Nishant-learns/Nishant-learns/issues/new?title=%F0%9F%9B%A1%EF%B8%8F%20Security%20Observation&body=%F0%9F%94%92%20Security%20observation%20details...) |
+| 🪐 | **Star Sentinel Station Repository** | [**`[ SYNC REPO STAR ⭐ ]`**](https://github.com/Nishant-learns/Nishant-learns) |
+
+</div>
+
+---
+
 <div align="center">
   <sub>⚡ ✦ Engineered with precision &amp; autonomous intelligence by <b>Nishant</b> ✦ ⚡</sub>
 </div>
+
