@@ -30,10 +30,10 @@
     <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="22" alt="LinkedIn" />
     </a>
-    <a href="https://YOUR_RESUME_OR_PORTFOLIO_URL_HERE" target="_blank">
-      <img src="https://img.shields.io/badge/Resume-FF4500?style=flat&logo=google-chrome&logoColor=white" height="22" alt="Resume" />
+    <a href="https://github.com/Nishant-learns/nishant" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio%20%2F%20Resume-FF4500?style=flat&logo=google-chrome&logoColor=white" height="22" alt="Portfolio" />
     </a>
-    <a href="mailto:YOUR_EMAIL_HERE@example.com">
+    <a href="mailto:nishantjnvb21@gmail.com">
       <img src="https://img.shields.io/badge/Email-10B981?style=flat&logo=gmail&logoColor=white" height="22" alt="Email" />
     </a>
   </p>
@@ -50,58 +50,38 @@
 
 ---
 
-### 🚀 ✦ Core Engineering Flagships
+### 🚀 ✦ Selected Production Work
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3 align="center">👾 ✦ FormPilot</h3>
-      <p align="center"><b>AI Cyber Bhaiya — Autonomous Browser Agent</b></p>
-      <ul>
-        <li><b>Autonomous Operations:</b> Multi-agent browser operator executing complex examination &amp; registry form workflows.</li>
-        <li><b>Deterministic Sandboxing:</b> Playwright execution with automated human-in-the-loop fallback and state verification.</li>
-        <li><b>Tech Stack:</b> <code>Playwright</code>, <code>FastAPI</code>, <code>React 19</code>, <code>Vite</code>, <code>Pydantic</code>, <code>Cryptography</code></li>
-      </ul>
+      <p align="center"><b>01 / AI AGENT &amp; BROWSER OPS</b></p>
+      <p>An autonomous examination &amp; public-form operations agent ("AI Cyber Bhaiya"). Streams a real Chromium session over CDP to a React cockpit, scans form semantics with drift-aware recipes, pauses at CAPTCHA/OTP/upload checkpoints, and enforces a hard pre-payment safety stop.</p>
+      <p><b>Tech Stack:</b> <code>Python</code> <code>FastAPI</code> <code>React 19</code> <code>Playwright</code> <code>TinyFish</code></p>
       <p align="center">
-        <a href="https://github.com/Nishant-learns/formpilot"><b>Inspect Repository ➜</b></a>
+        <a href="https://formpilot-assistant.vercel.app/" target="_blank"><b>Live Cockpit ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/Nishant-learns/formpilot"><b>Source Code ➜</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🏛️ ✦ BEUVAULT (Core / Launch)</h3>
-      <p align="center"><b>University Academic Platform &amp; Analytics Engine</b></p>
-      <ul>
-        <li><b>Institutional Ingestion:</b> High-throughput extraction and analytics platform for university engineering results.</li>
-        <li><b>Automated Reporting:</b> Dynamic academic transcripts, rank synthesis, and historical grade performance tracking.</li>
-        <li><b>Tech Stack:</b> <code>FastAPI</code>, <code>Python</code>, <code>Render</code>, <code>PDF Engines</code>, <code>Gunicorn</code></li>
-      </ul>
+    <td width="33%" valign="top">
+      <h3 align="center">🏛️ ✦ BEUVAULT Launch</h3>
+      <p align="center"><b>02 / RESULT INTELLIGENCE</b></p>
+      <p>Result intelligence &amp; student arena for Bihar Engineering University (BEU). Turns raw semester results into instant SGPA analytics, branch-wide rank context, competitive leaderboards, head-to-head result battles, and export-ready share cards.</p>
+      <p><b>Tech Stack:</b> <code>JavaScript</code> <code>Analytics Engine</code> <code>Leaderboard</code> <code>Card Studio</code></p>
       <p align="center">
-        <a href="https://github.com/Nishant-learns/BEUVAULT"><b>Inspect Repository ➜</b></a>
+        <a href="https://beuvault-launch.onrender.com/" target="_blank"><b>Live Arena ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/Nishant-learns/BEUVAULT"><b>Source Code ➜</b></a>
       </p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3 align="center">🔮 ✦ BEUVAULT Predict</h3>
-      <p align="center"><b>AI Academic Dossier &amp; Forecasting Engine</b></p>
-      <ul>
-        <li><b>Predictive Intelligence:</b> Machine learning &amp; vector heuristics to forecast course performance and generate student dossiers.</li>
-        <li><b>Vector Synthesis:</b> Syllabus metadata indexing paired with Next.js 16 modern edge SSR rendering.</li>
-        <li><b>Tech Stack:</b> <code>Next.js 16</code>, <code>TypeScript</code>, <code>Supabase</code>, <code>Transformers</code>, <code>Tailwind CSS</code></li>
-      </ul>
+      <p align="center"><b>03 / ADMISSION PREDICTOR</b></p>
+      <p>UGEAC college &amp; branch predictor for Bihar B.Tech counseling (BCECEB). Evaluates aspirant CRL ranks, reservation categories, and branch filters against historical cutoff data—featuring a <code>Ctrl+K</code> command palette, EN/HI bilingual toggle, and AI counseling guide.</p>
+      <p><b>Tech Stack:</b> <code>Next.js</code> <code>React</code> <code>Tailwind CSS</code> <code>Cutoff Matrix</code></p>
       <p align="center">
-        <a href="https://github.com/Nishant-learns/beuvault-predict"><b>Inspect Repository ➜</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ ✦ BEU-OS Watcher Daemon</h3>
-      <p align="center"><b>Real-Time Result Ingestion &amp; Push Alerts</b></p>
-      <ul>
-        <li><b>Autonomous Daemons:</b> 24/7 background watchers actively detecting university result publications with state-diffing logic.</li>
-        <li><b>Instant Telemetry:</b> Microsecond push notifications via automated messaging bots and asynchronous event queues.</li>
-        <li><b>Tech Stack:</b> <code>Python</code>, <code>Docker</code>, <code>Async Scraping</code>, <code>Telegram Bot API</code>, <code>Linux</code></li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Nishant-learns/beu-os-notification"><b>Inspect Repository ➜</b></a>
+        <a href="https://beuvault-predict.vercel.app/" target="_blank"><b>Live Predictor ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/Nishant-learns/beuvault-predict"><b>Source Code ➜</b></a>
       </p>
     </td>
   </tr>

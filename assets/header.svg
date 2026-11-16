@@ -6,7 +6,7 @@
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#00f2fe" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#7d6cff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
     <style>
       .name { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.3px; }
@@ -17,7 +17,7 @@
       .edge-lit { stroke: #30363d; stroke-width: 1; fill: none; }
       .node { fill: #161b22; stroke: #30363d; stroke-width: 1; }
       .pulse { fill: #00f2fe; }
-      .tok { fill: #a855f7; }
+      .tok { fill: #6366f1; }
       .tick { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; fill: #38ef7d; }
     </style>
   </defs>
@@ -32,15 +32,15 @@
 
   <!-- meta labels -->
   <text x="16" y="17" class="meta">&#9666; main</text>
-  <text x="852" y="17" class="meta" text-anchor="end">HEAD &#8594; beuvault-ecosystem/production</text>
+  <text x="852" y="17" class="meta" text-anchor="end">HEAD &#8594; production/formpilot-beuvault</text>
   <text x="852" y="191" class="meta" text-anchor="end">v3.8.4</text>
 
   <!-- left text block -->
   <text x="40" y="86" class="name">Nishant</text>
   <text x="41" y="112" class="sub">FULL-STACK SYSTEMS &amp; AUTONOMOUS AI</text>
-  <text x="41" y="140" class="mono">FormPilot &#183; BEUVAULT Core &#183; BEUVAULT Predict &#183; BEU-OS Watcher &#183; Next.js 16 &#183; Python</text>
+  <text x="41" y="140" class="mono">FormPilot &#183; BEUVAULT Launch &#183; BEUVAULT Predict &#183; Python &#183; Next.js &#183; React 19</text>
 
-  <!-- ============ right: autonomous agent & vision graph ============ -->
+  <!-- ============ right: autonomous agent & data routing graph ============ -->
   <!-- weighted edges -->
   <path id="e0" class="edge-lit" d="M 640 100 L 705 62"/>
   <path id="e1" class="edge-lit" d="M 640 100 L 705 100"/>
@@ -70,8 +70,8 @@
   <!-- node captions -->
   <text x="640" y="122" class="meta" text-anchor="middle">input</text>
   <text x="705" y="48" class="meta" text-anchor="middle">browser</text>
-  <text x="705" y="114" class="meta" text-anchor="middle">predict</text>
-  <text x="705" y="158" class="meta" text-anchor="middle">daemon</text>
+  <text x="705" y="114" class="meta" text-anchor="middle">launch</text>
+  <text x="705" y="158" class="meta" text-anchor="middle">predict</text>
   <text x="775" y="86" class="meta" text-anchor="middle">fusion</text>
   <text x="840" y="86" class="meta" text-anchor="middle">action</text>
 
