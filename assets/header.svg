@@ -32,13 +32,13 @@
 
   <!-- meta labels -->
   <text x="16" y="17" class="meta">&#9666; main</text>
-  <text x="852" y="17" class="meta" text-anchor="end">HEAD &#8594; autonomous/agent-pipeline</text>
+  <text x="852" y="17" class="meta" text-anchor="end">HEAD &#8594; beuvault-ecosystem/production</text>
   <text x="852" y="191" class="meta" text-anchor="end">v3.8.4</text>
 
   <!-- left text block -->
   <text x="40" y="86" class="name">Nishant</text>
   <text x="41" y="112" class="sub">FULL-STACK SYSTEMS &amp; AUTONOMOUS AI</text>
-  <text x="41" y="140" class="mono">Autonomous Agents &#183; Edge Vision (MediaPipe) &#183; Python &#183; Next.js 16 &#183; Security</text>
+  <text x="41" y="140" class="mono">FormPilot &#183; BEUVAULT Core &#183; BEUVAULT Predict &#183; BEU-OS Watcher &#183; Next.js 16 &#183; Python</text>
 
   <!-- ============ right: autonomous agent & vision graph ============ -->
   <!-- weighted edges -->
@@ -53,7 +53,7 @@
   <!-- edge weight labels -->
   <text x="663" y="72" class="meta">0.96</text>
   <text x="664" y="94" class="meta">0.99</text>
-  <text x="663" y="132" class="meta">0.91</text>
+  <text x="663" y="132" class="meta">0.94</text>
 
   <!-- nodes -->
   <circle cx="640" cy="100" r="6" class="node">
@@ -70,8 +70,8 @@
   <!-- node captions -->
   <text x="640" y="122" class="meta" text-anchor="middle">input</text>
   <text x="705" y="48" class="meta" text-anchor="middle">browser</text>
-  <text x="705" y="114" class="meta" text-anchor="middle">vision</text>
-  <text x="705" y="158" class="meta" text-anchor="middle">data</text>
+  <text x="705" y="114" class="meta" text-anchor="middle">predict</text>
+  <text x="705" y="158" class="meta" text-anchor="middle">daemon</text>
   <text x="775" y="86" class="meta" text-anchor="middle">fusion</text>
   <text x="840" y="86" class="meta" text-anchor="middle">action</text>
 

@@ -54,40 +54,54 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3 align="center">👾 ✦ FormPilot</h3>
-      <p align="center"><b>AI Cyber Bhaiya — Autonomous Agent</b></p>
+      <p align="center"><b>AI Cyber Bhaiya — Autonomous Browser Agent</b></p>
       <ul>
         <li><b>Autonomous Operations:</b> Multi-agent browser operator executing complex examination &amp; registry form workflows.</li>
         <li><b>Deterministic Sandboxing:</b> Playwright execution with automated human-in-the-loop fallback and state verification.</li>
-        <li><b>Stack:</b> <code>Playwright</code>, <code>FastAPI</code>, <code>React 19</code>, <code>Vite</code>, <code>Pydantic</code>, <code>Cryptography</code></li>
+        <li><b>Tech Stack:</b> <code>Playwright</code>, <code>FastAPI</code>, <code>React 19</code>, <code>Vite</code>, <code>Pydantic</code>, <code>Cryptography</code></li>
       </ul>
       <p align="center">
         <a href="https://github.com/Nishant-learns/formpilot"><b>Inspect Repository ➜</b></a>
       </p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🔮 ✦ BEUVAULT Suite</h3>
-      <p align="center"><b>University Academic Platform</b></p>
+    <td width="50%" valign="top">
+      <h3 align="center">🏛️ ✦ BEUVAULT (Core / Launch)</h3>
+      <p align="center"><b>University Academic Platform &amp; Analytics Engine</b></p>
       <ul>
-        <li><b>Ingestion Pipelines:</b> Automated watcher daemons scraping &amp; parsing university examination results in real time.</li>
-        <li><b>Predictive Analytics:</b> Dossier generation engine with vectorized syllabus search &amp; dynamic PDF synthesis.</li>
-        <li><b>Stack:</b> <code>Next.js 16</code>, <code>FastAPI</code>, <code>Supabase</code>, <code>PostgreSQL</code>, <code>Docker</code></li>
+        <li><b>Institutional Ingestion:</b> High-throughput extraction and analytics platform for university engineering results.</li>
+        <li><b>Automated Reporting:</b> Dynamic academic transcripts, rank synthesis, and historical grade performance tracking.</li>
+        <li><b>Tech Stack:</b> <code>FastAPI</code>, <code>Python</code>, <code>Render</code>, <code>PDF Engines</code>, <code>Gunicorn</code></li>
       </ul>
       <p align="center">
         <a href="https://github.com/Nishant-learns/BEUVAULT"><b>Inspect Repository ➜</b></a>
       </p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🧿 ✦ Drishti &amp; Vigil Drive</h3>
-      <p align="center"><b>Edge Computer Vision &amp; ADAS</b></p>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔮 ✦ BEUVAULT Predict</h3>
+      <p align="center"><b>AI Academic Dossier &amp; Forecasting Engine</b></p>
       <ul>
-        <li><b>Edge Driver Telemetry:</b> Real-time facial landmark mesh tracking &amp; Eye Aspect Ratio (EAR) drowsiness calculation.</li>
-        <li><b>Hardware Alert Bridge:</b> Microsecond hardware triggers communicating with Arduino microcontrollers.</li>
-        <li><b>Stack:</b> <code>OpenCV</code>, <code>MediaPipe FaceMesh</code>, <code>Flask</code>, <code>Next.js</code>, <code>Arduino</code></li>
+        <li><b>Predictive Intelligence:</b> Machine learning &amp; vector heuristics to forecast course performance and generate student dossiers.</li>
+        <li><b>Vector Synthesis:</b> Syllabus metadata indexing paired with Next.js 16 modern edge SSR rendering.</li>
+        <li><b>Tech Stack:</b> <code>Next.js 16</code>, <code>TypeScript</code>, <code>Supabase</code>, <code>Transformers</code>, <code>Tailwind CSS</code></li>
       </ul>
       <p align="center">
-        <a href="https://github.com/Nishant-learns/drishti"><b>Inspect Repository ➜</b></a>
+        <a href="https://github.com/Nishant-learns/beuvault-predict"><b>Inspect Repository ➜</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ ✦ BEU-OS Watcher Daemon</h3>
+      <p align="center"><b>Real-Time Result Ingestion &amp; Push Alerts</b></p>
+      <ul>
+        <li><b>Autonomous Daemons:</b> 24/7 background watchers actively detecting university result publications with state-diffing logic.</li>
+        <li><b>Instant Telemetry:</b> Microsecond push notifications via automated messaging bots and asynchronous event queues.</li>
+        <li><b>Tech Stack:</b> <code>Python</code>, <code>Docker</code>, <code>Async Scraping</code>, <code>Telegram Bot API</code>, <code>Linux</code></li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Nishant-learns/beu-os-notification"><b>Inspect Repository ➜</b></a>
       </p>
     </td>
   </tr>

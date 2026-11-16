@@ -105,7 +105,7 @@
   <!-- Line 3: Active Systems / Repos -->
   <g class="fade-l3 font-mono">
     <text x="52" y="146" font-size="13" fill="#00f2fe" font-weight="600">[SYSTEMS]</text>
-    <text x="145" y="146" font-size="13" fill="#e2e8f0"><tspan fill="#00f2fe" font-weight="600">FormPilot</tspan> (Autonomous Agent) • <tspan fill="#9d4edd" font-weight="600">BEUVAULT</tspan> (Academic Data Suite) • <tspan fill="#38ef7d" font-weight="600">Drishti</tspan> (Vision ADAS)</text>
+    <text x="145" y="146" font-size="13" fill="#e2e8f0"><tspan fill="#00f2fe" font-weight="600">FormPilot</tspan> (Agent Engine) • <tspan fill="#9d4edd" font-weight="600">BEUVAULT Core</tspan> • <tspan fill="#38ef7d" font-weight="600">Predict</tspan> • <tspan fill="#f59e0b" font-weight="600">BEU-OS Watcher</tspan></text>
   </g>
 
   <!-- Line 4: Core Tech Matrix -->
