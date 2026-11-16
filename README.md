@@ -1,88 +1,150 @@
 <div align="center">
-  <!-- Dynamic Capsule Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,24,30&height=220&section=header&text=Hey%20there,%20I'm%20Nishant%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Engineer%20%7C%20AI%2FML%20%26%20Vision%20%7C%20Cyber%20Security%20Explorer&descSize=18&descAlignY=58" width="100%" alt="Header Banner" />
 
-  <!-- Animated Real-Time Typewriter -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&width=650&height=85&lines=Full-Stack+Engineer+%7C+Student+%26+Lifelong+Builder;Exploring+Autonomous+Agents+%26+Computer+Vision+Systems;Diving+deep+into+Cyber+Security+%26+Workflow+Automation;Architecting+FormPilot+%26+the+BEUVAULT+Ecosystem" alt="Typing SVG" />
+  <!-- =============================== -->
+  <!-- 🛰️ CYBER TERMINAL HUD (CUSTOM ANIMATED SVG) -->
+  <!-- =============================== -->
+  <a href="https://github.com/Nishant-learns">
+    <img src="./assets/cyber-terminal.svg" width="100%" alt="Nishant Cyber Terminal HUD" />
   </a>
 
-  <!-- Quick Links & Contact Badge Strip (Resume & LinkedIn Rooms) -->
+  <br/>
+
+  <!-- =============================== -->
+  <!-- 🌐 HIGH-VISIBILITY ACCESS ROOMS -->
+  <!-- =============================== -->
   <p align="center">
     <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;
     <a href="https://YOUR_RESUME_OR_PORTFOLIO_URL_HERE" target="_blank">
-      <img src="https://img.shields.io/badge/Resume%20%2F%20Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Resume / Portfolio" />
+      <img src="https://img.shields.io/badge/Resume%20%2F%20Portfolio-FF4500?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Resume / Portfolio" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;
     <a href="mailto:YOUR_EMAIL_HERE@example.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email%20Dispatch-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
+
 </div>
 
 ---
 
-### ⚡ `whoami`
+### 🗺️ System Topology & Architecture
 
-```yaml
-identity:
-  name: Nishant
-  status: Computer Science & Engineering Undergrad & Active Builder
-  passions: [Full-Stack Systems, Autonomous Browser Agents, Edge Computer Vision, Cyber Security]
-  current_work:
-    - Scaling FormPilot (Autonomous multi-agent examination & form execution engine)
-    - Expanding BEUVAULT Academic Analytics Suite & Watcher Daemons
-  credo: "Automate the repetitive, engineer for scale, and secure the perimeter."
-```
+<div align="center">
+  <img src="./assets/system-architecture.svg" width="100%" alt="System Architecture Topology" />
+</div>
 
 ---
 
-### 🚀 Featured Engineering & Ecosystems
+### 🚀 Core Engineering Flagships
 
-| Project | Focus | Tech Highlights |
-| :--- | :--- | :--- |
-| **[FormPilot](https://github.com/Nishant-learns/formpilot)** | **AI Cyber Bhaiya** — Autonomous Examination & Form Operations Agent | `Playwright` `FastAPI` `React 19` `Vite` `Pydantic` `Cryptography` |
-| **[BEUVAULT](https://github.com/Nishant-learns/BEUVAULT)** *(Suite)* | **University Academic Intelligence Platform** — Result analytics, predictive dossiers & automated watchers | `Next.js 16` `FastAPI` `Supabase` `PostgreSQL` `PDF Engines` `Docker` |
-| **[Drishti](https://github.com/Nishant-learns/drishti) / Vigil Drive** | **Real-Time ADAS & Driver Drowsiness Detector** — Edge vision monitoring with hardware alerts | `OpenCV` `MediaPipe (FaceMesh)` `Flask` `Next.js` `Arduino` |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3 align="center">🤖 FormPilot</h3>
+      <p align="center"><b>AI Cyber Bhaiya — Autonomous Agent</b></p>
+      <ul>
+        <li><b>Autonomous Operations:</b> Multi-agent browser operator for complex government & academic examination forms.</li>
+        <li><b>Robust Sandboxing:</b> Playwright execution with automated human-in-the-loop fallback and state verification.</li>
+        <li><b>Stack:</b> <code>Playwright</code>, <code>FastAPI</code>, <code>React 19</code>, <code>Vite</code>, <code>Pydantic</code>, <code>Cryptography</code></li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Nishant-learns/formpilot"><b>Inspect Repository ➜</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">🏛️ BEUVAULT Suite</h3>
+      <p align="center"><b>University Academic Platform</b></p>
+      <ul>
+        <li><b>Ingestion Pipelines:</b> Automated watcher daemons scraping & parsing university portals in real time.</li>
+        <li><b>Predictive Analytics:</b> Dossier generation engine with vectorized syllabus search & dynamic PDF generation.</li>
+        <li><b>Stack:</b> <code>Next.js 16</code>, <code>FastAPI</code>, <code>Supabase</code>, <code>PostgreSQL</code>, <code>Docker</code></li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Nishant-learns/BEUVAULT"><b>Inspect Repository ➜</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">👁️ Drishti & Vigil Drive</h3>
+      <p align="center"><b>Edge Computer Vision & ADAS</b></p>
+      <ul>
+        <li><b>Edge Driver Telemetry:</b> Real-time facial landmark mesh tracking & Eye Aspect Ratio (EAR) calculation.</li>
+        <li><b>Hardware Alert Bridge:</b> Microsecond hardware triggers communicating with Arduino microcontrollers.</li>
+        <li><b>Stack:</b> <code>OpenCV</code>, <code>MediaPipe FaceMesh</code>, <code>Flask</code>, <code>Next.js</code>, <code>Arduino</code></li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Nishant-learns/drishti"><b>Inspect Repository ➜</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🛠️ Tech Arsenal & Stack
+### 🕹️ Contribution Matrix & Activity Arena
 
 <div align="center">
 
-#### **Languages & Core**
-<p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,bash,html,css" alt="Languages" />
-</p>
+  <h4>🏙️ 3D Isometric Night-View Skyline</h4>
+  <p><i>Isometric 3D city landscape rendered daily from repository commit density</i></p>
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D Isometric Contribution Graph" />
 
-#### **Frameworks & Libraries**
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,fastapi,flask,vite,tailwind,opencv" alt="Frameworks" />
-</p>
+  <br/><br/>
 
-#### **Databases, Backend & Cloud**
-<p>
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,bun,nodejs,prisma,docker,vercel" alt="Databases and Cloud" />
-</p>
-
-#### **Tools, Security & Hardware**
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,postman,linux,arduino" alt="Tools" />
-</p>
+  <h4>🐍 Autonomous Contribution Snake</h4>
+  <p><i>Autonomous arcade snake traversing git contributions in real-time</i></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake.svg" width="95%">
+  </picture>
 
 </div>
 
 ---
 
-### 📊 GitHub Telemetry & Stats
+### 🛠️ Capabilities & Tech Arsenal
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="right" width="22%"><b>Languages</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,bash,html,css" alt="Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>Frameworks & Vision</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nextjs,react,fastapi,flask,vite,tailwind,opencv" alt="Frameworks" />
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>Data & Infrastructure</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=supabase,postgres,bun,nodejs,prisma,docker,vercel" alt="Data & Cloud" />
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>Tooling & Hardware</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=git,github,githubactions,postman,linux,arduino" alt="Tools & Hardware" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 📊 Telemetry & Global Metrics
 
 <div align="center">
   <a href="https://github.com/Nishant-learns">
-    <img src="https://github-readme-stats.vercel.app/api?username=Nishant-learns&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00F2FE&icon_color=00F2FE" height="175" alt="Nishant's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Nishant-learns&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00F2FE&icon_color=00F2FE" height="175" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/Nishant-learns">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nishant-learns&layout=compact&theme=tokyonight&hide_border=true&title_color=00F2FE" height="175" alt="Top Languages" />
@@ -92,24 +154,12 @@ identity:
 <div align="center">
   <br/>
   <a href="https://github.com/Nishant-learns">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nishant-learns&theme=tokyonight&hide_border=true&stroke=00F2FE&ring=00F2FE&fire=00F2FE" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nishant-learns&theme=tokyonight&hide_border=true&stroke=00F2FE&ring=00F2FE&fire=00F2FE" alt="Streak Stats" />
   </a>
 </div>
 
 ---
 
-### 🐍 Contribution Activity
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-<div align="center">
-  <sub>Crafted with code, curiosity, and continuous learning by <b>Nishant</b> 🚀</sub>
+  <sub>⚡ Engineered with precision &amp; autonomous intelligence by <b>Nishant</b></sub>
 </div>

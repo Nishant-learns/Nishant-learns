@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#070a12" />
+      <stop offset="100%" stop-color="#05070d" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121826" />
+      <stop offset="100%" stop-color="#182033" />
+    </linearGradient>
+
+    <!-- Cyber Neon Border Gradient -->
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#7f00ff" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulseBorder {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 0.45; }
+      }
+      @keyframes lineFade {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .font-mono {
+        font-family: 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      .cursor {
+        animation: blink 0.9s infinite;
+      }
+      .border-pulse {
+        animation: pulseBorder 4s infinite ease-in-out;
+      }
+      .fade-l1 { animation: lineFade 0.6s ease forwards; animation-delay: 0.2s; opacity: 0; }
+      .fade-l2 { animation: lineFade 0.6s ease forwards; animation-delay: 0.5s; opacity: 0; }
+      .fade-l3 { animation: lineFade 0.6s ease forwards; animation-delay: 0.8s; opacity: 0; }
+      .fade-l4 { animation: lineFade 0.6s ease forwards; animation-delay: 1.1s; opacity: 0; }
+      .fade-l5 { animation: lineFade 0.6s ease forwards; animation-delay: 1.4s; opacity: 0; }
+      .fade-l6 { animation: lineFade 0.6s ease forwards; animation-delay: 1.7s; opacity: 0; }
+      .fade-l7 { animation: lineFade 0.6s ease forwards; animation-delay: 2.0s; opacity: 0; }
+      .fade-l8 { animation: lineFade 0.6s ease forwards; animation-delay: 2.3s; opacity: 0; }
+    </style>
+  </defs>
+
+  <!-- Window Container with Glowing Cyber Border -->
+  <rect x="2" y="2" width="876" height="386" rx="12" fill="url(#bgGrad)" stroke="url(#cyberBorder)" stroke-width="2" class="border-pulse" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 2 14 Q 2 2 14 2 L 866 2 Q 878 2 878 14 L 878 40 L 2 40 Z" fill="url(#headerGrad)" />
+  <line x1="2" y1="40" x2="878" y2="40" stroke="#1f293d" stroke-width="1.5" />
+
+  <!-- macOS / Unix Window Action Dots -->
+  <circle cx="26" cy="21" r="6" fill="#ff5f56" />
+  <circle cx="46" cy="21" r="6" fill="#ffbd2e" />
+  <circle cx="66" cy="21" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="440" y="26" fill="#7d8b9f" font-size="12" text-anchor="middle" class="font-mono" font-weight="600">
+    ⚡ nishant@sentinel-station: ~/mission-control (zsh)
+  </text>
+  <text x="840" y="25" fill="#00f2fe" font-size="10" text-anchor="end" class="font-mono">
+    STATUS: ONLINE
+  </text>
+
+  <!-- Grid / Scanline Accents -->
+  <line x1="30" y1="56" x2="850" y2="56" stroke="#0e1726" stroke-width="1" />
+  <line x1="30" y1="360" x2="850" y2="360" stroke="#0e1726" stroke-width="1" />
+
+  <!-- Terminal Body Content -->
+  <!-- Line 1: Command Prompt -->
+  <g class="fade-l1 font-mono">
+    <text x="32" y="78" font-size="14" font-weight="700" fill="#00f2fe">➜</text>
+    <text x="52" y="78" font-size="14" font-weight="700" fill="#e2e8f0">~</text>
+    <text x="70" y="78" font-size="14" font-weight="500" fill="#a0aec0">whoami --verbose --deep</text>
+  </g>
+
+  <!-- Line 2: Identity & Base Profile -->
+  <g class="fade-l2 font-mono">
+    <text x="52" y="112" font-size="13" fill="#38ef7d" font-weight="600">[IDENTITY]</text>
+    <text x="145" y="112" font-size="13" fill="#f8fafc">Nishant</text>
+    <text x="215" y="112" font-size="13" fill="#64748b">|</text>
+    <text x="230" y="112" font-size="13" fill="#94a3b8">Full-Stack Software Engineer &amp; CS Undergrad</text>
+  </g>
+
+  <!-- Line 3: Active Systems / Repos -->
+  <g class="fade-l3 font-mono">
+    <text x="52" y="146" font-size="13" fill="#00f2fe" font-weight="600">[SYSTEMS]</text>
+    <text x="145" y="146" font-size="13" fill="#e2e8f0"><tspan fill="#00f2fe" font-weight="600">FormPilot</tspan> (Autonomous Agent) • <tspan fill="#9d4edd" font-weight="600">BEUVAULT</tspan> (Academic Data Suite) • <tspan fill="#38ef7d" font-weight="600">Drishti</tspan> (Vision ADAS)</text>
+  </g>
+
+  <!-- Line 4: Core Tech Matrix -->
+  <g class="fade-l4 font-mono">
+    <text x="52" y="180" font-size="13" fill="#f59e0b" font-weight="600">[STACK]</text>
+    <text x="145" y="180" font-size="13" fill="#e2e8f0">Python • Next.js 16 • React 19 • TypeScript • FastAPI • Flask • OpenCV • Supabase</text>
+  </g>
+
+  <!-- Line 5: Focus Domains -->
+  <g class="fade-l5 font-mono">
+    <text x="52" y="214" font-size="13" fill="#ec4899" font-weight="600">[RESEARCH]</text>
+    <text x="145" y="214" font-size="13" fill="#e2e8f0">Autonomous Browser Agents • Edge Computer Vision (MediaPipe) • Applied Security</text>
+  </g>
+
+  <!-- Line 6: Security & Automation Philosophy -->
+  <g class="fade-l6 font-mono">
+    <text x="52" y="248" font-size="13" fill="#8b5cf6" font-weight="600">[SECURITY]</text>
+    <text x="145" y="248" font-size="13" fill="#cbd5e1">Playwright sandboxing, cryptography, reverse-engineered automated telemetry pipelines</text>
+  </g>
+
+  <!-- Line 7: Current Mission -->
+  <g class="fade-l7 font-mono">
+    <text x="52" y="282" font-size="13" fill="#3b82f6" font-weight="600">[MISSION]</text>
+    <text x="145" y="282" font-size="13" fill="#e2e8f0">Building robust, highly automated production platforms that make complex tasks effortless.</text>
+  </g>
+
+  <!-- Line 8: Interactive Terminal Prompt & Blinking Cursor -->
+  <g class="fade-l8 font-mono">
+    <text x="32" y="326" font-size="14" font-weight="700" fill="#00f2fe">➜</text>
+    <text x="52" y="326" font-size="14" font-weight="700" fill="#e2e8f0">~</text>
+    <text x="70" y="326" font-size="14" font-weight="500" fill="#38ef7d">ready-to-collaborate</text>
+    <rect x="235" y="313" width="9" height="16" fill="#00f2fe" class="cursor" />
+  </g>
+
+  <!-- Bottom Metric Bar -->
+  <g class="font-mono">
+    <text x="52" y="375" font-size="11" fill="#475569">UPTIME: 99.98%</text>
+    <text x="210" y="375" font-size="11" fill="#475569">NODE: IN-EAST-01</text>
+    <text x="370" y="375" font-size="11" fill="#475569">ENCRYPTION: AES-256-GCM</text>
+    <text x="828" y="375" font-size="11" fill="#00f2fe" text-anchor="end">READY</text>
+  </g>
+</svg>
