@@ -1,28 +1,40 @@
 <div align="center">
 
   <!-- ============================================== -->
-  <!-- 🛰️ CYBER TERMINAL HUD (CUSTOM ANIMATED VECTOR) -->
+  <!-- 🛰️ MINIMALIST ARCHITECTURAL BANNER (INSPIRED BY LXLYNX) -->
   <!-- ============================================== -->
   <a href="https://github.com/Nishant-learns">
-    <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/cyber-terminal.svg" width="100%" alt="Nishant Cyber Terminal HUD" />
+    <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/header.svg" width="880" alt="Nishant — Full-Stack Systems & Autonomous AI" />
   </a>
 
-  <br/>
-
   <!-- ============================================== -->
-  <!-- 🪐 HIGH-VISIBILITY ACCESS & PROTOCOL ROOMS    -->
+  <!-- ⚡ CYCLING PHILOSOPHY & TERMINAL PROMPT        -->
   <!-- ============================================== -->
   <p align="center">
+    <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/now.svg" width="720" alt="Current Engineering Philosophy" />
+  </p>
+
+  <!-- ============================================== -->
+  <!-- 🪐 CORE TECH BADGES & PROTOCOL ROOMS          -->
+  <!-- ============================================== -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" height="22" alt="Python" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" height="22" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat&logo=next.js&logoColor=white" height="22" alt="Next.js" />
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" height="22" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/React%2019-20232A?style=flat&logo=react&logoColor=61DAFB" height="22" alt="React" />
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" height="22" alt="OpenCV" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" height="22" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" height="22" alt="Docker" />
+    &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-      <img src="https://img.shields.io/badge/✦%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="22" alt="LinkedIn" />
     </a>
-    &nbsp;&nbsp;
     <a href="https://YOUR_RESUME_OR_PORTFOLIO_URL_HERE" target="_blank">
-      <img src="https://img.shields.io/badge/✦%20Resume%20%2F%20Dossier-FF4500?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Resume / Portfolio" />
+      <img src="https://img.shields.io/badge/Resume-FF4500?style=flat&logo=google-chrome&logoColor=white" height="22" alt="Resume" />
     </a>
-    &nbsp;&nbsp;
     <a href="mailto:YOUR_EMAIL_HERE@example.com">
-      <img src="https://img.shields.io/badge/✦%20Direct%20Dispatch-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-10B981?style=flat&logo=gmail&logoColor=white" height="22" alt="Email" />
     </a>
   </p>
 
@@ -144,16 +156,10 @@
 
 <div align="center">
 
-  <!-- Interactive Terminal Stats -->
+  <!-- Activity Graph (Rendered directly from repository asset - 100% Visible & Resilient) -->
+  <h4>📈 ✦ Commit Trajectory &amp; Velocity</h4>
   <a href="https://github.com/Nishant-learns">
-    <img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=Nishant-learns&theme=tokyonight&headerStyle=mac" width="85%" alt="Terminal GitHub Stats" />
-  </a>
-
-  <br/><br/>
-
-  <!-- Real-time Commit Trajectory & Activity Graph -->
-  <a href="https://github.com/Nishant-learns">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishant-learns&theme=tokyo-night&area=true&custom_title=✦%20GIT%20COMMIT%20VELOCITY%20%26%20TRAJECTORY%20✦" width="85%" alt="Activity Graph" />
+    <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/activity-graph.svg" width="95%" alt="Commit Velocity & Activity Graph" />
   </a>
 
   <br/><br/>
@@ -184,4 +190,3 @@
 <div align="center">
   <sub>⚡ ✦ Engineered with precision &amp; autonomous intelligence by <b>Nishant</b> ✦ ⚡</sub>
 </div>
-

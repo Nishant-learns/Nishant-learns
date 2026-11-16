@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00f2fe" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#7d6cff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 600; fill: #e6edf3; letter-spacing: 0.3px; }
+      .sub  { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #00f2fe; letter-spacing: 3.2px; }
+      .mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; fill: #7d8590; }
+      .meta { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 9.5px; fill: #484f58; }
+      .edge { stroke: #21262d; stroke-width: 1; fill: none; }
+      .edge-lit { stroke: #30363d; stroke-width: 1; fill: none; }
+      .node { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .pulse { fill: #00f2fe; }
+      .tok { fill: #a855f7; }
+      .tick { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; fill: #38ef7d; }
+    </style>
+  </defs>
+
+  <rect width="880" height="200" fill="url(#bg)"/>
+  <ellipse cx="720" cy="100" rx="200" ry="110" fill="url(#glow)"/>
+
+  <!-- guide lines -->
+  <line x1="0" y1="26" x2="880" y2="26" class="edge"/>
+  <line x1="0" y1="176" x2="880" y2="176" class="edge"/>
+  <line x1="600" y1="26" x2="600" y2="176" class="edge" opacity="0.6"/>
+
+  <!-- meta labels -->
+  <text x="16" y="17" class="meta">&#9666; main</text>
+  <text x="852" y="17" class="meta" text-anchor="end">HEAD &#8594; autonomous/agent-pipeline</text>
+  <text x="852" y="191" class="meta" text-anchor="end">v3.8.4</text>
+
+  <!-- left text block -->
+  <text x="40" y="86" class="name">Nishant</text>
+  <text x="41" y="112" class="sub">FULL-STACK SYSTEMS &amp; AUTONOMOUS AI</text>
+  <text x="41" y="140" class="mono">Autonomous Agents &#183; Edge Vision (MediaPipe) &#183; Python &#183; Next.js 16 &#183; Security</text>
+
+  <!-- ============ right: autonomous agent & vision graph ============ -->
+  <!-- weighted edges -->
+  <path id="e0" class="edge-lit" d="M 640 100 L 705 62"/>
+  <path id="e1" class="edge-lit" d="M 640 100 L 705 100"/>
+  <path id="e2" class="edge-lit" d="M 640 100 L 705 138"/>
+  <path id="e3" class="edge" d="M 705 62 L 775 100"/>
+  <path id="e4" class="edge" d="M 705 100 L 775 100"/>
+  <path id="e5" class="edge" d="M 705 138 L 775 100"/>
+  <path id="e6" class="edge" d="M 775 100 L 840 100"/>
+
+  <!-- edge weight labels -->
+  <text x="663" y="72" class="meta">0.96</text>
+  <text x="664" y="94" class="meta">0.99</text>
+  <text x="663" y="132" class="meta">0.91</text>
+
+  <!-- nodes -->
+  <circle cx="640" cy="100" r="6" class="node">
+    <animate attributeName="stroke" values="#30363d;#00f2fe;#30363d" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="705" cy="62" r="5" class="node"/>
+  <circle cx="705" cy="100" r="5" class="node">
+    <animate attributeName="stroke" values="#30363d;#38ef7d;#30363d" dur="4s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="705" cy="138" r="5" class="node"/>
+  <circle cx="775" cy="100" r="6" class="node"/>
+  <circle cx="840" cy="100" r="4.5" class="node"/>
+
+  <!-- node captions -->
+  <text x="640" y="122" class="meta" text-anchor="middle">input</text>
+  <text x="705" y="48" class="meta" text-anchor="middle">browser</text>
+  <text x="705" y="114" class="meta" text-anchor="middle">vision</text>
+  <text x="705" y="158" class="meta" text-anchor="middle">data</text>
+  <text x="775" y="86" class="meta" text-anchor="middle">fusion</text>
+  <text x="840" y="86" class="meta" text-anchor="middle">action</text>
+
+  <!-- neural pulses traveling along input edges -->
+  <circle r="2.4" class="pulse" opacity="0.9">
+    <animateMotion dur="3.2s" repeatCount="indefinite" begin="0s">
+      <mpath href="#e1"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.15;0.85;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" class="pulse">
+    <animateMotion dur="3.2s" repeatCount="indefinite" begin="1.1s">
+      <mpath href="#e0"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.15;0.85;1" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="1.7" class="pulse">
+    <animateMotion dur="3.2s" repeatCount="indefinite" begin="2.2s">
+      <mpath href="#e2"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0.55;0.55;0" keyTimes="0;0.15;0.85;1" dur="3.2s" begin="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- token: picks mid route, merges, exits -->
+  <circle r="3" class="tok">
+    <animate attributeName="cx" values="628;628;705;705;775;775;852" keyTimes="0;0.08;0.30;0.36;0.58;0.64;0.86" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;100;100;100;100;100;100" keyTimes="0;0.08;0.30;0.36;0.58;0.64;0.86" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;1;1;1;0;0" keyTimes="0;0.06;0.30;0.36;0.58;0.84;0.88;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- alternate token: browser route -->
+  <circle r="2.6" class="tok">
+    <animate attributeName="cx" values="628;628;705;705;775;775;852" keyTimes="0;0.08;0.30;0.36;0.58;0.64;0.86" dur="6s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;100;62;62;100;100;100" keyTimes="0;0.08;0.30;0.36;0.58;0.64;0.86" dur="6s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;1;1;1;0;0" keyTimes="0;0.06;0.30;0.36;0.58;0.84;0.88;1" dur="6s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============ pipeline scorecard (bottom left) ============ -->
+  <line x1="40" y1="158" x2="320" y2="158" class="edge"/>
+  <text x="40" y="172" class="meta">pipeline pass@1</text>
+  <text x="150" y="172" class="tick" opacity="1">
+    0.984
+    <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.30;0.34;0.64;0.96;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="150" y="172" class="tick" opacity="0">
+    0.992
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.30;0.34;0.62;0.66;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="150" y="172" class="tick" opacity="0">
+    0.998
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.62;0.66;0.92;0.96;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="212" y="172" class="meta">&#916; +0.006</text>
+
+  <!-- score bar -->
+  <rect x="250" y="167" width="70" height="3" rx="1.5" fill="#21262d"/>
+  <rect x="250" y="167" width="67" height="3" rx="1.5" fill="#00f2fe" opacity="0.8">
+    <animate attributeName="width" values="64;67;69;69;64" keyTimes="0;0.34;0.66;0.9;1" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- blinking cursor, bottom-right -->
+  <rect x="820" y="182" width="7" height="12" fill="#00f2fe">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

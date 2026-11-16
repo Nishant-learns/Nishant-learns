@@ -1,0 +1,24 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-graph:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Latest Activity Graph
+        run: |
+          curl -s -A "Mozilla/5.0" "https://github-readme-activity-graph.vercel.app/graph?username=Nishant-learns&theme=tokyo-night&area=true" > assets/activity-graph.svg
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-graph.svg
+          git commit -m "chore: update activity graph" || exit 0
+          git pull --rebase origin main && git push origin main
