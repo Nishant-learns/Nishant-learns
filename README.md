@@ -4,7 +4,7 @@
   <!-- 🛰️ CYBER TERMINAL HUD (CUSTOM ANIMATED SVG) -->
   <!-- =============================== -->
   <a href="https://github.com/Nishant-learns">
-    <img src="./assets/cyber-terminal.svg" width="100%" alt="Nishant Cyber Terminal HUD" />
+    <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/cyber-terminal.svg" width="100%" alt="Nishant Cyber Terminal HUD" />
   </a>
 
   <br/>
@@ -33,7 +33,7 @@
 ### 🗺️ System Topology & Architecture
 
 <div align="center">
-  <img src="./assets/system-architecture.svg" width="100%" alt="System Architecture Topology" />
+  <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/assets/system-architecture.svg" width="100%" alt="System Architecture Topology" />
 </div>
 
 ---
@@ -89,7 +89,7 @@
 
   <h4>🏙️ 3D Isometric Night-View Skyline</h4>
   <p><i>Isometric 3D city landscape rendered daily from repository commit density</i></p>
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D Isometric Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/Nishant-learns/Nishant-learns/main/profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D Isometric Contribution Graph" />
 
   <br/><br/>
 
